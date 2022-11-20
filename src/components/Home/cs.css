@@ -457,3 +457,37 @@
     left: 21%;
     }
 }
+@media (max-width: 371px){
+    .navbarr .a5{
+        top: 535px;
+    }
+    .navbarr .a6{
+        top: 555px;
+    }
+    .navbarr .a7{
+        top: 577px;
+    }
+    .navbarr .a8{
+        bottom: -552.5px;
+    }
+    .navbarr .a9{
+        bottom: -557px;
+    }
+    .all {
+        height: 475px;
+        width: 100%;
+    }
+    .navbarr .a4 {
+        bottom: -435px;
+    }
+    .allab {
+        height: 715px;
+        width: 100%;
+    }
+    .con img {
+        top: 40px;
+    }
+    .con p {
+        top: 245px;
+    }
+}

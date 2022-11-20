@@ -385,38 +385,11 @@
 }
 @media (max-width: 417px){
     .allab {
-        height: 680px;
+        height: 700px;
         width: 100%;
     }
 }
-@media (max-width: 370px){
-    .navbarr .a5{
-        top: 550px;
-    }
-    .navbarr .a6{
-        top: 570px;
-    }
-    .navbarr .a7{
-        top: 592px;
-    }
-    .navbarr .a8{
-        bottom: -567.5px;
-    }
-    .navbarr .a9{
-        bottom: -572px;
-    }
-    .all {
-        height: 500px;
-        width: 100%;
-    }
-    .navbarr .a4 {
-        bottom: -450px;
-    }
-    .allab {
-        height: 715px;
-        width: 100%;
-    }
-}
+
 @media (max-width: 325px){
     .allab {
         height: 750px;
