@@ -296,22 +296,12 @@
         top: 40px;
     }
 }
-@media (max-width: 450px) {
-    .con img {
-        color: white;
-        width: 100px;
-        position: absolute;
-        top: 275px;
-        right: 1%;
+@media (min-width: 750px) {
+    .menu{
+        display: none;
     }
-    .con p {
-        color: white;
-        width: 50%;
-        font-size: 14px;
-        position: absolute;
-        top: 270px;
-        left: 15px;
-    }
+}
+@media (max-width: 600px){
     .navbarr {
         color: white;
         padding: 20px 10px;
@@ -321,44 +311,6 @@
         width: 100%;
         position: relative;
     }
-    .navbarr h2 {
-        font-size: 25px;
-        position: relative;
-    }
-    .navbarr .a8 {
-        content: "";
-        position: absolute;
-        width: 1px;
-        height: 85px;
-        background-color: white;
-        bottom: -837px;
-        left: 50%;
-        transform: translatex(-50%);
-    }
-    .navbarr .a9 {
-        content: "";
-        position: absolute;
-        width: 1px;
-        height: 10px;
-        background-color: white;
-        bottom: -841px;
-        left: 50%;
-        transform: translatex(-50%);
-        border: 5px solid;
-        border-radius: 7px;
-    }
-    .menu {
-        position: absolute;
-        right: 10px;
-        top: 15px;
-    }
-}
-@media (min-width: 750px) {
-    .menu{
-        display: none;
-    }
-}
-@media (max-width: 360px){
     .navbarr .a8 {
         content: "";
         position: absolute;
@@ -425,7 +377,12 @@
         width: 100%;
     }
 }
-@media (max-width: 360px){
+@media (max-width: 600px){
+    .navbarr h2 {
+        font-size: 22px;
+        position: relative;
+        margin: 2px 0 0 18px;
+    }
     .navbarr .a8 {
         bottom: -617.5px;
     }
@@ -439,5 +396,64 @@
         position: absolute;
         top: 270px;
         left: 44px;
+    }
+    .menu {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+    .con p {
+        color: white;
+        width: 88%;
+        font-size: 20px;
+        position: absolute;
+        top: 270px;
+        left: 5%;
+    }
+    .con img {
+        color: white;
+        width: 200px;
+        position: absolute;
+        top: 60px;
+        left: 33%;
+    }
+    .navbarr .a1 {
+        bottom: -25px;
+        height: 0.1px;
+    }
+    .navbarr .a4 {
+        bottom: -400px;
+    }
+    .navbarr .a5{
+        top: 500px;
+    }
+    .navbarr .a6{
+        top: 520px;
+    }
+    .navbarr .a7{
+        top: 542px;
+    }
+    .navbarr .a8{
+        bottom: -517.5px;
+    }
+    .navbarr .a9{
+        bottom: -522px;
+    }
+    .pcontent {
+        margin-left: 50px;
+    }
+    .all {
+        height: 450px;
+        width: 100%;
+    }
+}
+@media (max-width: 475px){
+    .con img {
+    left: 27%;
+    }
+}
+@media (max-width: 375px){
+    .con img {
+    left: 21%;
     }
 }
