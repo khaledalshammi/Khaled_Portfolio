@@ -170,19 +170,3 @@
         position: relative;
     }
 }
-@media (max-width: 333px) {
-    .ix {
-        margin-left: 73%;
-    }
-    .listmenu li {
-        margin-top: 40px;
-        transition: 0.7s ease-in-out;
-    }
-    .itsme1 {
-        color: white;
-        font-size: 65px;
-    }
-    .menuee {
-        height: 500px;
-    }
-}
