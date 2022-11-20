@@ -277,7 +277,7 @@
         margin-bottom: 25px;
     }
 }
-@media (max-width: 333px) {
+@media (max-width: 360px) {
     .f11 {
         height: 225px;
         width: 275px;

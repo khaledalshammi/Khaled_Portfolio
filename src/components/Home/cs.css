@@ -358,7 +358,7 @@
         display: none;
     }
 }
-@media (max-width: 333px){
+@media (max-width: 360px){
     .navbarr .a8 {
         content: "";
         position: absolute;
@@ -425,11 +425,19 @@
         width: 100%;
     }
 }
-@media (max-width: 333px){
+@media (max-width: 360px){
     .navbarr .a8 {
         bottom: -617.5px;
     }
     .navbarr .a9 {
         bottom: -622px;
+    }
+    .con p {
+        color: white;
+        width: 84%;
+        font-size: 20px;
+        position: absolute;
+        top: 270px;
+        left: 44px;
     }
 }

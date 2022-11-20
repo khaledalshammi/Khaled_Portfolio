@@ -136,23 +136,8 @@
         margin-left: 25px;
     }
 }
-@media (max-width: 344px){
-    .div11 .lin2, .ph2, .gm2, .git2 {
-        font-size: 18px;
-        color: white;
-        margin-top: 17px;
-        margin-left: 12px;
-    }
-    .div11 
-    .lin1,
-    .ph1,
-    .gm1,
-    .git1{
-        font-size: 40px;
-        color: white;
-    }
-}
-@media (max-width: 333px) {
+
+@media (max-width: 360px) {
     .hg {
         margin-bottom: 50px;
     }
@@ -168,5 +153,19 @@
         height: 630px;
         width: 100%;
         position: relative;
+    }
+    .div11 .lin2, .ph2, .gm2, .git2 {
+        font-size: 18px;
+        color: white;
+        margin-top: 17px;
+        margin-left: 12px;
+    }
+    .div11 
+    .lin1,
+    .ph1,
+    .gm1,
+    .git1{
+        font-size: 40px;
+        color: white;
     }
 }

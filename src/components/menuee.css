@@ -38,7 +38,7 @@
 .listmenu li:hover{
     transform: scale(1.1);
 }
-@media (max-width: 333px) {
+@media (max-width: 360px) {
     .ix {
         margin-left: 72%;
     }
