@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: #04091D;
+}
+.allcon{
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.div11{
+    display: flex;
+    flex-direction: row;
+    margin: 150px 0;
+}
+.div11 
+.lin1,
+.ph1,
+.gm1,
+.git1{
+    font-size: 65px;
+    color: white;
+    margin-right: 3px;
+}
+.div11 
+.lin2,
+.ph2,
+.gm2,
+.git2{
+    font-size: 28px;
+    color: white;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.a1276{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 300px;
+    background-color: white;
+    bottom: 333px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.a127{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 0.1px;
+    background-color: white;
+    left: 25%;
+    bottom: 233px;
+}
+@media (max-width: 1279px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 850px){
+    .a1276 {
+        display: none;
+    }
+    .div11{
+        margin: 30px 0 0 0;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 120px;
+    }
+    .a127 {
+        display: none;
+    }
+    .ab {
+        margin-top: 200px;
+        display: flex;
+    }
+    .hg{
+        margin-bottom: 120px;
+    }
+    .gm1{
+        margin-left: 42px;
+    }
+    .git1{
+        margin-left: 42px;
+    }
+}
+@media (max-width: 444px){
+    .div11 .lin2, .ph2, .gm2, .git2 {
+        font-size: 19px;
+        color: white;
+        margin-top: 17px;
+        margin-left: 10px;
+    }
+    .div11 
+    .lin1,
+    .ph1,
+    .gm1,
+    .git1{
+        font-size: 42px;
+        color: white;
+    }
+    .gm1 {
+        margin-left: 25px;
+    }
+    .git1 {
+        margin-left: 25px;
+    }
+}
+@media (max-width: 344px){
+    .div11 .lin2, .ph2, .gm2, .git2 {
+        font-size: 18px;
+        color: white;
+        margin-top: 17px;
+        margin-left: 12px;
+    }
+    .div11 
+    .lin1,
+    .ph1,
+    .gm1,
+    .git1{
+        font-size: 40px;
+        color: white;
+    }
+}

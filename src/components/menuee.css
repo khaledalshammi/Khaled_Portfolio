@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: #04091D;
+}
+.ix{
+    font-size: 75px;
+    color: white;
+    margin-left: 80%;
+    transition: 0.2s ease-in-out;
+}
+.ix:hover{
+    color: red;
+}
+.catch{
+    transition: 0.7s ease-in-out;
+    margin-top: 15px;
+}
+.menuee{
+    height: 100vh;
+}
+.listmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itsme1{
+    color: white;
+    font-size: 75px;
+}
+.listmenu li{
+    margin-top: 65px;
+    transition: 0.7s ease-in-out;
+}
+.listmenu li:hover{
+    transform: scale(1.1);
+}

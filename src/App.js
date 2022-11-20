@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Project from './components/Project/Project'
+import Contact from './components/Contact/Contact'
+import React,{useState} from 'react'
+import Menuu from './components/Menuu'
 
 function App() {
+  const [checkedon,setCheckedon] = useState()
+  const checkon=(value)=>{
+    setCheckedon(value)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {checkedon ? <Menuu onmenu={checkon}/> :
+                  <div>
+                    <Home onmenu={checkon}/>
+                    <About/>
+                    <Project/>
+                    <Contact/>
+                  </div>}
+    </>
   );
 }
 

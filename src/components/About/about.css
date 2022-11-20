@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: #04091D;
+}
+.allab{
+    height: 830px;
+    width: 100%;
+}
+.ab{
+    margin-top: 200px;
+    display: flex;
+}
+.about{
+    font-size: 70px;
+    font-family: Inria Serif;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 60px;
+}
+.pcontent{
+    color: #00ffb8;
+    width: 25%;
+    margin-top: 110px;
+    margin-left: 100px;
+    font-size: 19px;
+    line-height: 25px;
+    word-spacing: 5px;
+    font-family: monospace;
+}
+.piccontent {
+    color: #2472ff;
+    font-size: 500px;
+    margin-left: 135px;
+    margin-right: 80px;
+}
+.cvv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.cvv li{
+    color: #00ffb8;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.py{
+    position: relative;
+}
+.py::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.my{
+    position: relative;
+}
+.my::after{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.po{
+    position: relative;
+}
+.po::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.dj{
+    position: relative;
+}
+.dj::after{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.ht{
+    position: relative;
+}
+.ht::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.cs{
+    position: relative;
+}
+.cs::after{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.ja{
+    position: relative;
+}
+.ja::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.js{
+    position: relative;
+}
+.js::after{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.ap{
+    position: relative;
+}
+.ap::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.api{
+    position: relative;
+}
+.api::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.uiux{
+    position: relative;
+}
+.uiux::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: -40px;
+    background: url('./left.svg');
+}
+.aboutnav{
+    position: relative;
+}
+.aboutnav .a5{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 0.1px;
+    background-color: white;
+    left: 30%;
+    bottom: 15px;
+}
+.aboutnav .a6{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 0.1px;
+    background-color: white;
+    bottom: -5px;
+    left: 35%;
+}
+.aboutnav .a7{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 0.1px;
+    background-color: white;
+    bottom: -25px;
+    left: 40%;
+}
+.aboutnav .a8 {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 85px;
+    background-color: white;
+    bottom: -70px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.aboutnav .a9 {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: white;
+    bottom: -73px;
+    left: 50%;
+    transform: translatex(-50%);
+    border: 5px solid;
+    border-radius: 7px;
+    color: white;
+}
+@media (max-width: 1014px) {
+    .content{
+        margin-top: 0;
+    }
+}
+@media (max-width: 566px) {
+    .cvv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .cvv li {
+        color: #00ffb8;
+        font-size: 20px;
+        margin-top: 8px;
+        margin-right: 100px;
+    }
+}
+@media (max-width: 448px) {
+    .cvv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 1480px) {
+    .pcontent {
+        color: #00ffb8;
+        width: 333px;
+        margin-top: 84px;
+        margin-left: 80px;
+        font-size: 16px;
+        line-height: 20px;
+        word-spacing: 1px;
+        font-family: monospace;
+    }
+    .piccontent {
+        color: #2472ff;
+        font-size: 430px;
+        margin-left: 30px;
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 1192px) {
+    .piccontent{
+        display: none;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cvv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    .pcontent {
+        color: #00ffb8;
+        width: 77%;
+        margin-top: 40px;
+        margin-left: 80px;
+        font-size: 16px;
+        line-height: 20px;
+        word-spacing: 1px;
+        font-family: monospace;
+    }
+    .aboutnav {
+        position: relative;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1000px) {
+    .aboutnav {
+        position: relative;
+        margin-top: 75px;
+    }
+}
+@media (max-width: 388px) {
+    .pcontent {
+        color: #00ffb8;
+        width: 90%;
+        margin-top: 18px;
+        margin-left: 25px;
+        font-size: 16px;
+        line-height: 20px;
+        word-spacing: 1px;
+        font-family: monospace;
+    }
+    .cvv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 18px;
+        margin-bottom: -15px;
+    }
+}
+@media (max-width: 800px) {
+    .ab{
+            margin-top: 140px;
+            display: flex;
+    }
+}
+@media (max-width: 1192px){
+    .cvv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 28px;
+        margin-bottom: 4px;
+    }
+}
