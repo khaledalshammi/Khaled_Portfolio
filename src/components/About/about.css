@@ -359,3 +359,9 @@
         margin-bottom: 4px;
     }
 }
+@media (max-width: 333px){
+    .allab {
+        height: 715px;
+        width: 100%;
+    }
+}
