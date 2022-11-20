@@ -230,7 +230,7 @@
 @media (max-width: 600px) {
     .pro {
         margin-top: 10px;
-        margin-bottom: 80px;
+        margin-bottom:  0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -259,10 +259,9 @@
         font-family: Inria Serif;
         color: white;
         margin: 0 auto;
-        margin-top: 30px;
     }
     .allpro {
-        height: 760px;
+        height: 1000px;
         width: 100%;
         position: relative;
     }

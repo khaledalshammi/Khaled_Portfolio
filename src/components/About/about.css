@@ -19,7 +19,6 @@
     font-family: Inria Serif;
     color: white;
     margin: 0 auto;
-    margin-top: 30px;
 }
 .content{
     display: flex;
@@ -344,12 +343,6 @@
         margin-bottom: -15px;
     }
 }
-@media (max-width: 800px) {
-    .ab{
-            margin-top: 140px;
-            display: flex;
-    }
-}
 @media (max-width: 1192px){
     .cvv {
         display: flex;
@@ -359,9 +352,16 @@
         margin-bottom: 4px;
     }
 }
+@media (max-width: 800px) {
+    .ab{
+            margin-top: 140px;
+            display: flex;
+    }
+}
+
 @media (max-width: 600px){
     .allab {
-        height: 750px;
+        height: 1000px;
         width: 100%;
     }
 }
@@ -376,23 +376,13 @@
         word-spacing: 1px;
         font-family: monospace;
     }
-}
-@media (max-width: 566px){
-    .allab {
-        height: 650px;
-        width: 100%;
+    .ab {
+        margin-top: 0;
     }
-}
-@media (max-width: 417px){
-    .allab {
-        height: 700px;
-        width: 100%;
+    .about {
+        margin-top: 0;
     }
-}
-
-@media (max-width: 325px){
-    .allab {
-        height: 750px;
-        width: 100%;
+    .ab {
+        margin-top: 0px;
     }
 }

@@ -443,7 +443,7 @@
         margin-left: 50px;
     }
     .all {
-        height: 450px;
+        height: 700px;
         width: 100%;
     }
 }
@@ -474,15 +474,11 @@
         bottom: -540px;
     }
     .all {
-        height: 475px;
+        height: 700px;
         width: 100%;
     }
     .navbarr .a4 {
         bottom: -420px;
-    }
-    .allab {
-        height: 715px;
-        width: 100%;
     }
     .con img {
         top: 40px;
